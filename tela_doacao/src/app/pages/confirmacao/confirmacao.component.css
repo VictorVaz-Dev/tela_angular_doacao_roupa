@@ -1,0 +1,93 @@
+.confirmacao-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 500px;
+}
+
+.icone-sucesso {
+  color: green;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.mensagem {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.detalhes {
+  background: #fff3f3;
+  border: 1px solid #f2c2c2;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.gerenciar,
+.historico {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.gerenciar {
+  background: #e3e8ef;
+}
+
+.historico {
+  background: #e3e8ef;
+}
+
+.voltar {
+  background: #d93025;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.voltar:hover {
+  background: #b8251c;
+}

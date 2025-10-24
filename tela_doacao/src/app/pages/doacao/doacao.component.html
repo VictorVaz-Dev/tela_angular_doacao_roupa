@@ -1,0 +1,54 @@
+<div class="doacao-container">
+  <h1>Doação de Roupas</h1>
+  <p class="subtitulo">
+    Compartilhe o calor da solidariedade. Doe roupas em bom estado e ajude a aquecer o inverno de quem precisa.
+  </p>
+
+  <div class="form-grid">
+    <div class="form-section">
+      <h2>Detalhes da Doação</h2>
+      <select>
+        <option>Tipo de roupa</option>
+        <option>Masculina</option>
+        <option>Feminina</option>
+        <option>Infantil</option>
+      </select>
+
+      <select>
+        <option>Condição</option>
+        <option>Novo</option>
+        <option>Usado</option>
+      </select>
+
+      <input type="number" placeholder="Quantidade (número de peças)" />
+
+      <h2>Retirada ou Entrega</h2>
+
+      <label class="radio">
+        <input type="radio" name="metodo" checked /> Agendar Retirada
+      </label>
+      <label class="radio">
+        <input type="radio" name="metodo" /> Pontos de Entrega
+      </label>
+
+      <input type="text" placeholder="Endereço para Retirada" />
+
+      <button class="confirmar" routerLink="/confirmacao">
+        Confirmar Doação
+      </button>
+    </div>
+
+    <div class="info-section">
+      <img src="https://maps.googleapis.com/maps/api/staticmap?center=São+Paulo&zoom=12&size=400x200&key=AIzaSyD..." alt="Mapa" />
+      <p>
+        Encontre o ponto de entrega mais próximo de você. Clique no mapa para ver os endereços e horários de funcionamento.
+      </p>
+
+      <h2>Instruções e Orientações</h2>
+      <p>
+        Para garantir que sua doação chegue em perfeito estado, pedimos que as roupas estejam limpas e em boas condições de uso.
+        Se possível, separe as roupas por tipo e tamanho. Agradecemos sua colaboração!
+      </p>
+    </div>
+  </div>
+</div>
